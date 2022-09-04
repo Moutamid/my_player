@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
                         && conMgr.getActiveNetworkInfo().isConnected()) {
                     playAudio();
                 } else {
+
                     Toast.makeText(MainActivity.this, "Internet is not available...", Toast.LENGTH_SHORT).show();
                 }
             }
