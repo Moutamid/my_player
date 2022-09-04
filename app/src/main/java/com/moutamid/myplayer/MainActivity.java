@@ -163,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         pauseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
