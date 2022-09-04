@@ -78,9 +78,20 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_weight="1"
+            android:visibility="visible"
             android:layout_margin="5dp"
             android:layout_gravity="center"
             android:src="@drawable/pause_btn"/>
+
+        <ImageView
+            android:id="@+id/idBtnPlay2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/play_btn"/>
 
         <ImageView
             android:id="@+id/idBtnforward"
@@ -101,6 +112,15 @@
             android:src="@drawable/forward10"/>
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/idBtnStop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/layout_pause"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/stop_btn"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_seek"
